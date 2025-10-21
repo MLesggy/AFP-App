@@ -11,10 +11,12 @@ import UIKit
 struct TabBar: View {
     var body: some View {
         TabView {
+            
             ContentView()
                 .tabItem {
                     Label("Voyager", systemImage: "airplane")
                 }
+            
             Text("")
                 .tabItem {
                     Label("Profil", systemImage: "person.crop.circle.fill")
@@ -25,14 +27,14 @@ struct TabBar: View {
                     Label("Cadeau", systemImage: "gift")
                 }
             
-            Text("")
+           
+            Passports()
                 .tabItem {
                     Label {
                         Text("Pass")
                     } icon: {
                         Image("passport")
                             .renderingMode(.template)
-                            .resizable()
                     }
                 }
         }.accentColor(.grennIcon)
