@@ -1,0 +1,14 @@
+# Fichiers générés par Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcworkspace/contents.xcworkspacedata
+*.xcuserdatad/
+
+# SwiftPM
+.build/
+Packages/
+
+# macOS metadata
+.DS_Store
