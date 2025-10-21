@@ -106,6 +106,5 @@ struct ContentView: View {
 }
 #Preview {
     ContentView()
-    TabBar()
 }
 
