@@ -11,7 +11,7 @@ import UIKit
 struct TabBar: View {
     var body: some View {
         TabView {
-            
+                NewTrip()
                 .tabItem {
                     Label("Voyager", systemImage: "airplane")
                 }
