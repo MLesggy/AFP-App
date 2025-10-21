@@ -11,7 +11,7 @@ import UIKit
 struct TabBar: View {
     var body: some View {
         TabView {
-                NewTrip()
+            NewTrip()
                 .tabItem {
                     Label("Voyager", systemImage: "airplane")
                 }
@@ -41,6 +41,7 @@ struct TabBar: View {
     }
        
 }
+
 
 #Preview {
     TabBar()
