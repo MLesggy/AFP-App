@@ -15,7 +15,7 @@ struct TabBar: View {
                 .tabItem {
                     Label("Voyager", systemImage: "airplane")
                 }
-            Text("")
+            Profil()
                 .tabItem {
                     Label("Profil", systemImage: "person.crop.circle.fill")
                 }
