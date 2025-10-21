@@ -92,7 +92,7 @@ struct NewTrip: View {
                                                         withAnimation {
                                                             selectedCountry = country
                                                             countrySearchText = country
-                                                            hideKeyboard()
+                                                            
                                                         }
                                                     }
                                             }
@@ -137,7 +137,7 @@ struct NewTrip: View {
                                                         withAnimation {
                                                             selectedCity = city
                                                             citySearchText = city
-                                                            hideKeyboard()
+                                                           
                                                         }
                                                     }
                                             }
@@ -214,14 +214,7 @@ struct NewTrip: View {
     
     
 }
-// Extension pour cacher le clavier facilement
-#if canImport(UIKit)
-extension View {
-    func hideKeyboard() {
-        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-    }
-}
-#endif
+
 
 #Preview {
     NewTrip()
