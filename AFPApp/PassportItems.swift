@@ -35,18 +35,58 @@ struct PassportItems: View {
             }
         }
         
-        HStack{
+        VStack{
             ZStack{
                 RoundedRectangle(cornerRadius: 8)
-                    .fill(Color.gray)
+                    .fill(Color.white)
                     .frame(width: 370, height: 110)
-                Image("TokyoMini")
-                    .resizable()
-                    .frame(width: 80, height: 80)
-                Text("4/12")
-                    .foregroundStyle(.white)
-                    .fontWeight(.bold)
+                    .shadow(radius: 5)
                 
+                HStack (spacing: 10){
+                    Image("TokyoMini")
+                        .resizable()
+                        .frame(width: 80, height: 80)
+                        .padding(20)
+                    
+                    Image("Stamp3")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                        .clipped()
+                        .padding(-10)
+                    Image("Stamp2")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                        .clipped()
+                    
+                    Text("4/12")
+                        .foregroundStyle(.black)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 50)
+                    
+                    
+                }
+            }
+            ZStack{
+                RoundedRectangle(cornerRadius: 8)
+                    .fill(Color.white)
+                    .frame(width: 370, height: 110)
+                    .shadow(radius: 5)
+                HStack{
+                    Image("Osaka")
+                        .resizable()
+                        .frame(width: 80, height: 80)
+                        .padding(20)
+                    Image("Stamp5")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                        .clipped()
+                        
+                    
+                    Text("1/9")
+                        .foregroundStyle(.black)
+                        .fontWeight(.bold)
+                        .padding(.horizontal, 70)
+                }
             }
             
         }
