@@ -10,33 +10,9 @@
 		62FD23062EA63C0A00B4C404 /* AFPApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFPApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		62FD231A2EA63CA000B4C404 /* Exceptions for "AFPApp" folder in "AFPApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				MockDataUser.json,
-			);
-			target = 62FD23052EA63C0A00B4C404 /* AFPApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		62FD231B2EA63CA000B4C404 /* Exceptions for "AFPApp" folder in "Compile Sources" phase from "AFPApp" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 62FD23022EA63C0A00B4C404 /* Sources */;
-			membershipExceptions = (
-				MockDataUser.json,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		62FD23082EA63C0A00B4C404 /* AFPApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				62FD231A2EA63CA000B4C404 /* Exceptions for "AFPApp" folder in "AFPApp" target */,
-				62FD231B2EA63CA000B4C404 /* Exceptions for "AFPApp" folder in "Compile Sources" phase from "AFPApp" target */,
-			);
 			path = AFPApp;
 			sourceTree = "<group>";
 		};

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "D7F9A2B6-1C84-4E5A-AD92-8B68B5D6A7F2",
+    "imageName": "Stamp1",
+    "isLocked": false
+  },
+  {
+    "id": "4A3B6C1D-9E7F-412D-9D8F-11E12B67A3C9",
+    "imageName": "Stamp2",
+    "isLocked": false
+  },
+  {
+    "id": "98F6B314-B9E2-4F83-B2D6-F68E84B4A4E9",
+    "imageName": "Stamp3",
+    "isLocked": false
+  },
+  {
+    "id": "32B7E1C4-7762-4A4F-9B12-45D72F681AF0",
+    "imageName": "Stamp4",
+    "isLocked": false
+  },
+  {
+    "id": "C54891B7-90F7-4F61-9531-137A0E2F6F67",
+    "imageName": "Stamp5",
+    "isLocked": false
+  },
+  {
+    "id": "1F44A519-C9D2-4D70-9732-C5D32E5E47AA",
+    "imageName": "QR1",
+    "isLocked": true
+  },
+  {
+    "id": "F5A4CB7D-3F4E-49B7-AB12-54328E648BAE",
+    "imageName": "QR2",
+    "isLocked": true
+  },
+  {
+    "id": "E283DAB4-1F78-4E92-9A4C-B8E9C4A99351",
+    "imageName": "QR1",
+    "isLocked": true
+  },
+  {
+    "id": "7C91F03B-BBE0-48AD-A84F-FA8A5234EBA8",
+    "imageName": "QR2",
+    "isLocked": true
+  },
+  {
+    "id": "AB58D1A4-883B-4F62-9D42-7F5C4E0F3D2A",
+    "imageName": "QR1",
+    "isLocked": true
+  },
+  {
+    "id": "3B2C7F6E-8E5F-4E2A-ABF1-3D5C1A4B9F6E",
+    "imageName": "QR2",
+    "isLocked": true
+  },
+  {
+    "id": "50D4D813-7A31-4F48-B3A2-5D9E0F72C8D1",
+    "imageName": "QR1",
+    "isLocked": true
+  },
+  {
+    "id": "50D4D813-7A31-4F49-B3A2-5D9E0F72C8D1",
+    "imageName": "QR1",
+    "isLocked": true
+  },
+  {
+    "id": "54D4D813-7A31-4F48-B3A2-5D9E0F72C8D1",
+    "imageName": "Stamp6",
+    "isLocked": false
+  },
+  {
+    "id": "30D4D813-7A31-4F48-B3A2-5D9E0F72C8D1",
+    "imageName": "QR1",
+    "isLocked": true
+  }
+]
