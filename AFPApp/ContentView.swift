@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
+        
+        
+        NavigationStack {
             
             VStack{
                 //        Premier stack titre et legende
@@ -97,6 +99,7 @@ struct ContentView: View {
                                 .padding(.top, 30)
                         }
                     }
+                    }
                     
                 }
             }
@@ -106,7 +109,7 @@ struct ContentView: View {
     
     
     
-}
+
 
 
 
