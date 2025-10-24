@@ -1,0 +1,17 @@
+    [
+      {
+        "id": "1A2B3C4D-0000-0000-0000-000000000001",
+        "name": "Temple Asakusa",
+        "imageName": "Schrine"
+      },
+      {
+        "id": "2B3C4D5E-0000-0000-0000-000000000002",
+        "name": "Mont Fuji",
+        "imageName": "FugiSan"
+      },
+      {
+        "id": "3C4D5E6F-0000-0000-0000-000000000003",
+        "name": "Tokyo Tower",
+        "imageName": "tokyo"
+      }
+    ]

@@ -53,7 +53,7 @@ struct PassportItems: View {
                             .shadow(radius: 5)
                         
                         HStack(spacing: 10) {
-                            NavigationLink(destination: StampCollection()){
+                            NavigationLink(destination: MyPassport()){
                                 Image("TokyoMini")
                                     .resizable()
                                     .frame(width: 80, height: 80)
