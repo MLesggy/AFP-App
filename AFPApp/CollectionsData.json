@@ -73,5 +73,30 @@
     "id": "30D4D813-7A31-4F48-B3A2-5D9E0F72C8D1",
     "imageName": "QR1",
     "isLocked": true
+  },
+  {
+    "id": "3B2C7F6E-8E5F-4E2A-ABF1-3D5C1A4B9F6E",
+    "imageName": "QR2",
+    "isLocked": true
+  },
+  {
+    "id": "50D4D813-7A31-4F48-B3A2-5D9E0F72C8D1",
+    "imageName": "QR1",
+    "isLocked": true
+  },
+  {
+    "id": "50D4D813-7A31-4F49-B3A2-5D9E0F72C8D1",
+    "imageName": "QR1",
+    "isLocked": true
+  },
+  {
+    "id": "54D4D813-7A31-4F48-B3A2-5D9E0F72C8D1",
+    "imageName": "Stamp8",
+    "isLocked": false
+  },
+  {
+    "id": "30D4D813-7A31-4F48-B3A2-5D9E0F72C8D1",
+    "imageName": "QR1",
+    "isLocked": true
   }
 ]

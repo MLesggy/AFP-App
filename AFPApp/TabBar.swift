@@ -12,37 +12,43 @@ struct TabBar: View {
     var body: some View {
         TabView {
             
-            ContentView()
-                .tabItem {
-                    Label("Voyager", systemImage: "airplane")
-                }
+            NavigationStack {
+                ContentView()
+            }
             
-            Text("")
-                .tabItem {
-                    Label("Profil", systemImage: "person.crop.circle.fill")
-                }
-            
-            Text("")
-                .tabItem {
-                    Label("Cadeau", systemImage: "gift")
-                }
-            
-           
-            Passports()
-                .tabItem {
-                    Label {
-                        Text("Pass")
-                    } icon: {
-                        Image("passport")
-                            .renderingMode(.template)
+                    .tabItem {
+                        Label("Voyager", systemImage: "airplane")
                     }
-                }
-        }.accentColor(.grennIcon)
             
+                Text("")
+                    .tabItem {
+                        Label("Profil", systemImage: "person.crop.circle.fill")
+                    }
+                
+                Text("")
+                    .tabItem {
+                        Label("Cadeau", systemImage: "gift")
+                    }
+                
+                
+                Passports()
+                    .tabItem {
+                        Label {
+                            Text("Pass")
+                        } icon: {
+                            Image("passport")
+                                .renderingMode(.template)
+                        }
+                    }
+            
+            }
+            .accentColor(.grennIcon)
+           
+            
+            
+        }
         
     }
-       
-}
 
 
 #Preview {

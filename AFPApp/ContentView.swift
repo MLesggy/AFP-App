@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
+        
+        
+        NavigationStack {
             
             VStack{
                 //        Premier stack titre et legende
@@ -82,7 +84,7 @@ struct ContentView: View {
                     
                     //            Dernier Stack avec le bouton
                     VStack{
-                        NavigationLink(destination: NewTrip()) {
+                        NavigationLink(destination: Passports()) {
                             Text("Nouveau voyage")
                                 .padding(.horizontal, 20)
                                 .padding(.vertical, 8)
@@ -97,6 +99,7 @@ struct ContentView: View {
                                 .padding(.top, 30)
                         }
                     }
+                    }
                     
                 }
             }
@@ -106,7 +109,7 @@ struct ContentView: View {
     
     
     
-}
+
 
 
 
