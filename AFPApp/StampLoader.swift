@@ -11,10 +11,12 @@ struct Stamp: Codable, Identifiable {
     var id = UUID()
     let imageName: String
     let isLocked: Bool
+    let location: String
     
     private enum CodingKeys: String, CodingKey {
         case imageName
         case isLocked
+        case location
         
     }
     

@@ -84,7 +84,7 @@ struct ContentView: View {
                     
                     //            Dernier Stack avec le bouton
                     VStack{
-                        NavigationLink(destination: Passports()) {
+                        NavigationLink(destination: NewTrip()) {
                             Text("Nouveau voyage")
                                 .padding(.horizontal, 20)
                                 .padding(.vertical, 8)
