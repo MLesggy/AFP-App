@@ -53,6 +53,8 @@ struct Tips: View {
                                         .foregroundColor(.black)
                                 }
                                 .padding(8)
+                               
+                                
                             }
                             .frame(width: 140, height: 90)
                         }
@@ -66,6 +68,8 @@ struct Tips: View {
                 )
                 .padding(.horizontal)
                 .padding(.bottom, 30)
+               
+                
             }
         }
     }

@@ -180,20 +180,18 @@ struct NewTrip: View {
                                 
                                 
                                 
-                                
-                                Button(action: {
-                                    print("button was tapped")
-                                }) {
-                                    Text("Allons-y")
-                                        .padding(.horizontal, 20)
-                                        .padding(.vertical, 8)
-                                        .fontWeight(.bold)
-                                        .foregroundStyle(Color.greenTitle)
-                                        .background(Color.greenButtonBackGround)
-                                        .cornerRadius(10)
-                                        .padding(20)
+                                NavigationLink(destination: Tips()){
+                                        Text("Allons-y")
+                                            .padding(.horizontal, 20)
+                                            .padding(.vertical, 8)
+                                            .fontWeight(.bold)
+                                            .foregroundStyle(Color.greenTitle)
+                                            .background(Color.greenButtonBackGround)
+                                            .cornerRadius(10)
+                                            .padding(20)
                                 }
                             }
+                            
                         }
                         .padding(.vertical, 40)
                         .padding(.horizontal, 24)

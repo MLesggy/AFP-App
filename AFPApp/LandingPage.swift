@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandingPage: View {
     var body: some View {
         
         
@@ -35,8 +35,9 @@ struct ContentView: View {
                 //          Deuxième Stack, mes voyages + Scanner
                 HStack(spacing: 140) {
                     Text("Mes Voyages")
-                    Text("Scannez")
-                }
+                        Text("Scannez")
+                    }
+                
                 .foregroundStyle(Color.greenSubtitle)
                 .fontWeight(.semibold)
                 
@@ -46,9 +47,8 @@ struct ContentView: View {
                         .aspectRatio(contentMode: .fill)
                         .frame(width: 200, height: 100)
                         .clipShape(Rectangle())
-                    Button {
-                        print("button was tapped")
-                    } label: {
+                    
+                    NavigationLink(destination: QRCodeFlasher()) {
                         Image(systemName: "qrcode.viewfinder")
                             .resizable()
                             .scaledToFit()
@@ -57,7 +57,7 @@ struct ContentView: View {
                             .padding(8)
                             .clipShape(RoundedRectangle(cornerRadius: 8))
                     }
-                    
+                
                 }
                 .padding(.bottom)
                 
@@ -105,17 +105,7 @@ struct ContentView: View {
             }
         }
     }
-    
-    
-    
-    
-
-
-
-
-
-
 #Preview {
-    ContentView()
+    LandingPage()
 }
 
