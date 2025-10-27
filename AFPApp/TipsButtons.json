@@ -1,0 +1,48 @@
+[
+    {
+      "id": "2e7e1b5c-9c1e-4a0a-8e24-6aef2b09f2c1",
+      "nom": "Restaurant",
+      "icone": "restaurantIcon"
+    },
+    {
+      "id": "5f4b3b8e-6731-4d7c-b6c8-f82bbfbb1a59",
+      "nom": "Hôtel",
+      "icone": "hotelIcon"
+    },
+    {
+      "id": "a93df924-6e21-40f7-bb49-d54b8f26d8c0",
+      "nom": "Supérette",
+      "icone": "itemIcon"
+    },
+    {
+      "id": "bfa24953-402d-4b49-b0d8-2e5e5c60a1d3",
+      "nom": "Lieu de culte",
+      "icone": "churchIcon"
+    },
+    {
+      "id": "cb9d67a8-7bc1-4dbe-bbfa-dfb872a87b83",
+      "nom": "Musée",
+      "icone": "museumIcon"
+    },
+    {
+      "id": "8a13e3f2-7dfb-498b-bca1-bff0e5d9e6e5",
+      "nom": "Boutique",
+      "icone": "storeIcon"
+    },
+    {
+      "id": "a5b71dc4-6b3c-4e74-9c87-1dcb548da013",
+      "nom": "Supermarché",
+      "icone": "cartIcon"
+    },
+    {
+      "id": "3c9a4a02-cc8f-46e2-8a09-7d9e23a4d746",
+      "nom": "Transport",
+      "icone": "transportIcon"
+    },
+    {
+      "id": "f36d2b19-865c-4a71-a8c1-bd9aafc3c6d1",
+      "nom": "Parc",
+      "icone": "parkIcon"
+    }
+  ]
+
