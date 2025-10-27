@@ -58,7 +58,9 @@ struct MyPassport: View {
                 
                 // Boutons bas de page
                 HStack(spacing: 120) {
-                    Image("Advices")
+                    NavigationLink(destination: Tips()){
+                        Image("Advices")
+                    }
                     NavigationLink(destination: StampCollection()) {
                         Image("StampCollection")
                     }
