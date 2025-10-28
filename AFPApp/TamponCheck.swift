@@ -13,6 +13,9 @@ struct TamponCheck: View {
     }
 }
 
+
+
+
 #Preview {
     TamponCheck()
 }

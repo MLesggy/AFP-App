@@ -129,7 +129,7 @@ struct NewTrip: View {
                                                         withAnimation {
                                                             selectedCity = city
                                                             citySearchText = city
-                                                           
+                                                            
                                                         }
                                                     }
                                             }
@@ -181,14 +181,14 @@ struct NewTrip: View {
                                 
                                 
                                 NavigationLink(destination: Tips()){
-                                        Text("Allons-y")
-                                            .padding(.horizontal, 20)
-                                            .padding(.vertical, 8)
-                                            .fontWeight(.bold)
-                                            .foregroundStyle(Color.greenTitle)
-                                            .background(Color.greenButtonBackGround)
-                                            .cornerRadius(10)
-                                            .padding(20)
+                                    Text("Allons-y")
+                                        .padding(.horizontal, 20)
+                                        .padding(.vertical, 8)
+                                        .fontWeight(.bold)
+                                        .foregroundStyle(Color.greenTitle)
+                                        .background(Color.greenButtonBackGround)
+                                        .cornerRadius(10)
+                                        .padding(20)
                                 }
                             }
                             
