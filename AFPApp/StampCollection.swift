@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import _MapKit_SwiftUI
 
 struct StampCollection: View {
     
@@ -21,19 +22,29 @@ struct StampCollection: View {
     ]
     
     var body: some View {
+        
         ZStack {
-            VStack(spacing: 20) {
-                Text("Collection")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundStyle(.greenTitle)
-                    .padding(.top)
-                
-                Text("Tokyo")
-                    .font(.title2)
-                    .foregroundStyle(.greenSubtitle)
-                    .fontWeight(.semibold)
-                
+            
+            NavigationStack{
+                VStack(spacing: 20) {
+                    Text("Collection")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundStyle(.greenTitle)
+                        .padding(.top)
+                    
+                    Text("Tokyo")
+                        .font(.title2)
+                        .foregroundStyle(.greenSubtitle)
+                        .fontWeight(.semibold)
+                    
+                    
+                    NavigationLink(destination: InterractivMap()){
+                        Text("Chercher sur la carte")
+                            .foregroundStyle(Color.greenTitle)
+                            .fontWeight(.bold)
+                    }
+                }
                 TextField("Chercher un QR Code", text: $searchText)
                     .padding(10)
                     .background(Color(.systemGray6))
